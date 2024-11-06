@@ -1,0 +1,18 @@
+# Main alacritty config file
+
+[window]
+dimensions.columns = 90
+dimensions.lines = 25
+
+padding.x = 6
+padding.y = 5
+
+opacity = 0.9
+
+blur = true
+
+[colors.search]
+
+matches.background = "#918b99"
+
+focused_match.background = "#5e17c2"
