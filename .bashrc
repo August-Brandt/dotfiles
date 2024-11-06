@@ -122,11 +122,3 @@ parse_git_branch() {
 
 export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;38;5;99m\]\h\[\033[00m\]:\[\033[01;38;5;162m\]\w\[\033[01;38;5;91m\]\$(parse_git_branch)\[\033[00m\]\n\$ "
 
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-[[ -s /home/august/.autojump/etc/profile.d/autojump.sh ]] && source /home/august/.autojump/etc/profile.d/autojump.sh
-
-
-. "$HOME/.cargo/env"
-source /home/august/tools/alacritty/extra/completions/alacritty.bash
